@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Title"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/green_primary"
+            android:textSize="15sp"></TextView>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0F6F1"
+            android:fontFamily="@font/montserrat"
+            android:text="TextView"
+            android:padding="20dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="15sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/green_primary"
+            android:padding="20dp"
+            android:id="@+id/desc_text"></TextView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
